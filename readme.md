@@ -3,7 +3,7 @@ This is a Dockerfile to run php scripts with composer
 # How to use this php dockerfile
 
 ```bash
-cd <dir with Dockerfile>
+cd <dir with Dockerfile from this repo>
 docker build -t myimage .
 
 cd <file_with_php_script>
