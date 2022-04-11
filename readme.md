@@ -4,7 +4,7 @@ This is a Dockerfile to run php scripts with composer
 
 ```bash
 cd <dir with Dockerfile from this repo>
-docker build -t myimage .
+docker build -t phprunner .
 
 cd <file_with_php_script>
 ```
