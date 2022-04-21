@@ -11,16 +11,16 @@ cd <file_with_php_script>
 
 #### CMD shell
 ```bash
-docker run --name myapp -v %cd%:/usr/src/myapp -d myimage   
+docker run --name myapp -v %cd%:/usr/src/myapp -d phprunner   
 ```
 #### Powershell
 ```bash
-docker run --name myapp -v ${pwd}:/usr/src/myapp -d myimage   
+docker run --name myapp -v ${pwd}:/usr/src/myapp -d phprunner   
 ```
 
 #### Bash
 ```bash
-docker run --name myapp -v $PWD:/usr/src/myapp -d myimage   
+docker run --name myapp -v $PWD:/usr/src/myapp -d phprunner   
 ```
 
 Once the php code is running in the `myapp` container you are able to run by entering the shell, as follows:
