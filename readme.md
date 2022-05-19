@@ -27,8 +27,8 @@ Once the php code is running in the `myapp` container you are able to run by ent
 
 ```bash
 docker exec -it myapp bash
-
 composer install
+php <path-to-php-file>
 ```
 
 You are also able to edit the code using Visual Studio Code with the [Remote Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
